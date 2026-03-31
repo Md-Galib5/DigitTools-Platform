@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div className=" bg-[#4F39F6] px-5 py-8 text-amber-50">
+        <div className=" bg-[#4F39F6] px-5 py-8 text-amber-50 mb-5">
             <div className="w-9/12 mx-auto grid grid-cols-1 md:grid-cols-3">
             <div className="px-8 py-8 text-center">
                 <div className="border-b md:border-b-0 md:border-r border-white">

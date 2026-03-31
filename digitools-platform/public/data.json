@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co/S4QdT4hD/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Launch your personal portfolio website in minutes.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Custom domains",
+      "Drag & drop builder",
+      "SEO optimized"
+    ],
+    "icon": "https://i.ibb.co/rKnjfPDX/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Interview Coach AI",
+    "description": "Practice interviews with real-time AI feedback.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Mock interviews",
+      "Performance analytics",
+      "Industry-specific questions"
+    ],
+    "icon": "https://i.ibb.co/zh63x3w3/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to kickstart your freelance career.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Contract templates",
+      "Invoice generator",
+      "Client management"
+    ],
+    "icon": "https://i.ibb.co/fV5xcpqZ/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "Job Tracker",
+    "description": "Track all your job applications in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Deadline reminders",
+      "Status updates"
+    ],
+    "icon": "https://i.ibb.co/qL8WnKgV/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Booster",
+    "description": "Optimize your LinkedIn profile for better visibility.",
+    "price": 19.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile analysis",
+      "Keyword optimization",
+      "Connection tips"
+    ],
+    "icon": "https://i.ibb.co/rKnjfPDX/operation.png"
+  },
+  {
+    "id": 7,
+    "name": "Cover Letter Generator",
+    "description": "Generate tailored cover letters instantly.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI-generated content",
+      "Multiple formats",
+      "Easy customization"
+    ],
+    "icon": "https://i.ibb.co/S4QdT4hD/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "Skill Assessment Hub",
+    "description": "Test and validate your professional skills.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Skill tests",
+      "Certificates",
+      "Performance reports"
+    ],
+    "icon": "https://i.ibb.co/zh63x3w3/portfolio.png"
+  },
+  {
+    "id": 9,
+    "name": "Career Path Planner",
+    "description": "Plan and track your long-term career growth.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Goal setting",
+      "Progress tracking",
+      "Personalized roadmap"
+    ],
+    "icon": "https://i.ibb.co/qL8WnKgV/writing-2327400-1.png"
+  }
+]
