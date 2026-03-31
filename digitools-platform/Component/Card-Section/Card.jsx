@@ -1,12 +1,13 @@
 import React, { use } from 'react';
-import AvailableCard from './AvailableCard/AvailableCard';
+
+import ModelHeader from './ModelHeader';
 
 const Card = ({productPromise}) => {
     const datas = use(productPromise);
     console.log(datas);
     return (
         <div>
-            <AvailableCard datas = {datas}/>
+            <ModelHeader datas = {datas}/>
         </div>
     );
 };

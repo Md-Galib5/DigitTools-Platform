@@ -19,7 +19,6 @@ function App() {
     <NavBar />
     <Banner />
     <Info />
-    <ModelHeader />
     <Card productPromise = {productPromise}/>
     </>
   )
