@@ -4,7 +4,7 @@ import SelectionCard from './SelectionCard/SelectionCard';
 
 const ModelHeader = ({datas}) => {
     const [selectedType,setselectedType] = useState("available");
-    console.log(datas.id);
+    const [isClicked,setisClicked] = useState([]);
     return (
         <div className='mb-10 space-y-3'>
              <div className='section-header text-center space-y-4'>
@@ -20,10 +20,10 @@ const ModelHeader = ({datas}) => {
                 className={`btn ${selectedType === "available" ? "bg-[#5537f7] text-white" : "bg-[#ffffff] text-black"}  rounded-full text-lg`}>Products</button>
                 <button
                  onClick={() =>setselectedType("selected")} 
-                className={`btn ${selectedType === "selected" ? "bg-[#5537f7] text-white" : "bg-[#ffffff] text-black"} rounded-full text-lg`}>Cart (2)</button>
+                className={`btn ${selectedType === "selected" ? "bg-[#5537f7] text-white" : "bg-[#ffffff] text-black"} rounded-full text-lg`}>Cart ({isClicked.length})</button>
                 </div>
             </div>
-            {selectedType === "available" ? (<AvailableCard datas = {datas}/>) : (<SelectionCard />)}
+            {selectedType === "available" ? (<AvailableCard datas = {datas} isClicked={isClicked} setisClicked={setisClicked}/>) : (<SelectionCard  datas={datas} isClicked={isClicked} setisClicked={setisClicked}/>)}
         </div>
     );
 };

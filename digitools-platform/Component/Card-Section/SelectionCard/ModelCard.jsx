@@ -1,7 +1,23 @@
 import React,{ useState } from 'react';
+import { toast } from 'react-toastify';
 
-const ModelCard = ({data}) => {
+
+const ModelCard = ({data,isClicked,setisClicked}) => {
     const [selected,setselected] = useState(false)
+     const isFound = isClicked.find(item => item.id === data.id);
+
+    const handleclicked = () =>{
+        setselected(true);
+
+        if(isFound){
+            toast.error("Items Already Added");
+            return;
+        }
+
+        setisClicked([...isClicked,data]);
+        toast.success("Iteams Added to Cart")
+
+    }
     return (
         <div className="card mx-auto w-80 sm:w-80 md:w-96 bg-base-100 shadow-md rounded-4xl">
   <div className="card-body">
@@ -44,7 +60,7 @@ const ModelCard = ({data}) => {
     </ul>
     <div className="mt-6">
       <button 
-      onClick={() => setselected(true)}
+      onClick={handleclicked}
       className={`btn btn-block rounded-full ${selected ? "bg-green-500 text-white" : "btn-primary"}`}>{selected === true ? "Added to cart" : "Buy Now"}</button>
     </div>
   </div>

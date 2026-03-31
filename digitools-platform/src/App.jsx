@@ -5,6 +5,11 @@ import Banner from '../Component/Banner'
 import Info from '../Component/Info'
 import ModelHeader from '../Component/Card-Section/ModelHeader'
 import Card from '../Component/Card-Section/Card'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
 
 const fetchData = async() =>{
    const res = await fetch("/data.json");
@@ -20,6 +25,8 @@ function App() {
     <Banner />
     <Info />
     <Card productPromise = {productPromise}/>
+
+     <ToastContainer />
     </>
   )
 }
