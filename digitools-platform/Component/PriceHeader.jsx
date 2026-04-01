@@ -48,9 +48,9 @@ const PriceHeader = () => {
               <li className="flex items-center"><CheckIcon />1 project per month</li>
             </ul>
 
-            <button className="mt-8 w-full py-3 rounded-full bg-[#5537f7] text-white font-semibold mt-auto hover:bg-purple-700 transition">
-              Get Started Free
-            </button>
+            <button className="mt-4 sm:mt-auto w-full py-3 rounded-full bg-[#5537f7] text-white font-semibold hover:bg-purple-700 transition">
+           Get Started Free
+           </button>
           </div>
           <div className="relative rounded-2xl p-6 text-white shadow-lg bg-gradient-to-br from-purple-600 to-indigo-600 scale-105">
             

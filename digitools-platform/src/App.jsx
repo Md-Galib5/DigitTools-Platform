@@ -8,6 +8,8 @@ import Card from '../Component/Card-Section/card'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import PriceHeader from '../Component/PriceHeader'
+import GetStarted from '../Component/GetStarted'
+import Footer from '../Component/Footer'
 
 
 
@@ -26,8 +28,10 @@ function App() {
     <Banner />
     <Info />
     <Card productPromise = {productPromise}/>
-
+    <GetStarted />
     <PriceHeader />
+
+    <Footer />
 
 
      <ToastContainer />

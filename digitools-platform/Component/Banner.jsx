@@ -17,7 +17,7 @@ const Banner = () => {
             </span>
           </h1>
 
-          <p className="text-zinc-700 max-w-lg text-lg">
+          <p className="text-gray-500 max-w-lg text-lg">
             Access premium AI tools, design assets, templates, and productivity<br />
             software—all in one place. Start creating faster today.<br />
             Explore Products
