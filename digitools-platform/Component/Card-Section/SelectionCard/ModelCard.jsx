@@ -10,12 +10,12 @@ const ModelCard = ({data,isClicked,setisClicked}) => {
         setselected(true);
 
         if(isFound){
-            toast.error("Items Already Added");
+            toast.error(`${data.name} Already Added`);
             return;
         }
 
         setisClicked([...isClicked,data]);
-        toast.success("Iteams Added to Cart")
+        toast.success(`${data.name} Added to Cart`)
 
     }
     return (

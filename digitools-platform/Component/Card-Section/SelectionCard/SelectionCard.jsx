@@ -5,7 +5,7 @@ const SelectionCard = ({isClicked,setisClicked}) => {
 
     const handleDelete = (item) =>{
         const filteritem = isClicked.filter(selectedItem => selectedItem.name !== item.name);
-        toast.error("Items Remove From The Cart");
+        toast.error(`${item.name} Remove From The Cart`);
         setisClicked(filteritem); 
     }
     const handleProceed = () =>{
