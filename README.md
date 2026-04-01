@@ -1,4 +1,4 @@
-🎯 A-6 Digital Tools Buying Website
+🎯 Digital Tools Buying Website
 
 Project Overview
 This project is a modern Digital Tools Buying Website that allows users to explore a variety of digital products, add them to a cart, and complete a checkout process. The application was developed based on a Figma design, emphasizing a clean user interface, responsive layout, and smooth user interactions.
