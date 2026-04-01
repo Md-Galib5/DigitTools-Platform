@@ -1,4 +1,4 @@
-
+import { FiShoppingCart } from "react-icons/fi";
 const NavBar = () => {
   return (
     <div className="navbar w-11/12 md:w-9/12 mx-auto">
@@ -26,7 +26,11 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
+      
       <div className="navbar-end gap-3 md:gap-5">
+          <button className="relative hover:text-purple-400">
+            <FiShoppingCart size={20} />
+          </button>
         <a>Login</a>
         <a className="btn bg-[#4F39F6] rounded-full text-white ">Get Started</a>
       </div>
