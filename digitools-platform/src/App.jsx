@@ -4,9 +4,10 @@ import './App.css'
 import Banner from '../Component/Banner'
 import Info from '../Component/Info'
 import ModelHeader from '../Component/Card-Section/ModelHeader'
-import Card from '../Component/Card-Section/Card'
+import Card from '../Component/Card-Section/card'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import PriceHeader from '../Component/PriceHeader'
 
 
 
@@ -25,6 +26,9 @@ function App() {
     <Banner />
     <Info />
     <Card productPromise = {productPromise}/>
+
+    <PriceHeader />
+
 
      <ToastContainer />
     </>
